@@ -4,19 +4,17 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel_string=
-kernel.string="${kernel_string}"
+kernel_string=wulan17
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
-device_name1=
-device.name1="${device_name1}"
+device_name1=cactus
 device.name2=
 device.name3=
 device.name4=
 device.name5=
-supported.versions=
+supported.versions=9 -
 supported.patchlevels=
 '; } # end properties
 
